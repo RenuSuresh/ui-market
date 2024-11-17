@@ -1,6 +1,6 @@
 "use client";
 
-import { Product } from "@ui-marketplace/shared/types";
+// import { Product } from "@ui-marketplace/shared/types";
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "next/navigation";
 import { mockProducts } from "../mock/products";

@@ -4,26 +4,27 @@
   "deps": {
     "@nx/next": "^18.0.4",
     "@prisma/client": "^5.10.2",
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "express": "^4.18.2",
-    "mongoose": "^8.1.0",
-    "next-auth": "^4.24.5",
-    "stripe": "^14.14.0",
-    "@tanstack/react-query": "^5.17.19",
-    "zod": "^3.22.4",
-    "lucide-react": "^0.330.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-query": "^5.17.19",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "express": "^4.18.2",
+    "lucide-react": "^0.330.0",
+    "mongoose": "^8.1.0",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stripe": "^14.14.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4",
     "@nx/js": "18.0.4",
     "@nx/workspace": "18.0.4",
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
@@ -50,42 +51,6 @@
   },
   "fileMap": {
     "projectFileMap": {
-      "shared-ui": [
-        {
-          "file": "packages/shared/ui/package.json",
-          "hash": "3448106232273768795",
-          "deps": [
-            "npm:@radix-ui/react-slot",
-            "npm:class-variance-authority",
-            "npm:clsx",
-            "npm:tailwind-merge"
-          ]
-        },
-        {
-          "file": "packages/shared/ui/project.json",
-          "hash": "17937034067150600257"
-        },
-        {
-          "file": "packages/shared/ui/src/index.ts",
-          "hash": "360940578646152556"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/button.tsx",
-          "hash": "17342150205216252481"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/utils.ts",
-          "hash": "1729146465301094011"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.json",
-          "hash": "615536708391496382"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.lib.json",
-          "hash": "9853212286358126775"
-        }
-      ],
       "web": [
         {
           "file": "apps/web/.next/app-build-manifest.json",
@@ -666,6 +631,42 @@
         {
           "file": "apps/web/tsconfig.json",
           "hash": "7386277635479651618"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "packages/shared/ui/package.json",
+          "hash": "3448106232273768795",
+          "deps": [
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "packages/shared/ui/project.json",
+          "hash": "17937034067150600257"
+        },
+        {
+          "file": "packages/shared/ui/src/index.ts",
+          "hash": "360940578646152556"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/button.tsx",
+          "hash": "17342150205216252481"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/utils.ts",
+          "hash": "1729146465301094011"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.json",
+          "hash": "615536708391496382"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.lib.json",
+          "hash": "9853212286358126775"
         }
       ]
     },

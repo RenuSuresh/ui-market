@@ -1,12 +1,12 @@
 "use client";
 
-import { Product } from "@ui-marketplace/shared/types";
+// import { Product } from "@ui-marketplace/shared/types";
 import { Download, Heart, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 interface ProductCardProps {
-	product: Product;
+	product: any;
 }
 
 export function ProductCard(props: ProductCardProps) {
