@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nx serve web",
     "build": "nx build web",
-    "start": "nx serve api",
+    "start:web": "serve -s dist/apps/web",
     "test": "nx test",
     "lint": "nx lint"
   },
