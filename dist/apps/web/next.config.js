@@ -8,6 +8,9 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
+  trailingSlash: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/ui-market' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ui-market/' : '',
 };
 
 module.exports = nextConfig;

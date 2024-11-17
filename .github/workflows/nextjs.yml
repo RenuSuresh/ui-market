@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-serve:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,5 +31,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Serve project
-        run: npm run start:web
+      - name: Export static site
+        run: npm run export
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy

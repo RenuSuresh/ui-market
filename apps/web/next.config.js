@@ -8,16 +8,9 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  // Add the following exportPathMap function
-  exportPathMap: async function (
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId }
-  ) {
-    return {
-      '/': { page: '/' },
-      // Add other routes here if needed
-    };
-  },
+  trailingSlash: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/ui-market' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ui-market/' : '',
 };
 
 module.exports = nextConfig;

@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "nx serve web",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "npx gh-pages -d out",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist/apps/web",
     "build": "nx build web",
     "export": "next export",
-    "start:web": "npx serve -s out",
+    "start:web": "nx serve web",
     "test": "nx test",
     "lint": "nx lint"
   },
