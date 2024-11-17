@@ -16,7 +16,10 @@
         "name": "next"
       }
     ],
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "@ui-marketplace/shared/ui": ["packages/shared/ui/src/index.ts"]
+    }
   },
   "include": [
     "**/*.ts",

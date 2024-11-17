@@ -10,10 +10,7 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "@ui-marketplace/shared/*": ["libs/shared/*"]
-    }
+    "noFallthroughCasesInSwitch": true
   },
   
   "files": [],
