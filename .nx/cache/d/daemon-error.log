@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX Daemon Server] - 2024-11-05T16:21:44.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-05T16:21:44.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-05T16:21:45.271Z - Started listening on: /var/folders/v7/1wmksyh92bb1ly_b1b8sx_d40000gp/T/54ef7b603d9739b76422/d.sock
+[NX Daemon Server] - 2024-11-05T16:21:45.484Z - [WATCHER]: Subscribed to changes within: /Users/renusureshganvir/Downloads/sb1-gaec8t (2) (native)
+[NX Daemon Server] - 2024-11-05T16:21:45.735Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-05T16:21:45.782Z - Time taken for 'total for creating and serializing project graph' 994.3471250000002ms
+[NX Daemon Server] - 2024-11-05T16:21:45.783Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-05T16:21:45.794Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-11-05T16:21:45.794Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-11-05T16:21:45.795Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-05T16:21:45.795Z - [WATCHER]: Stopping the watcher for /Users/renusureshganvir/Downloads/sb1-gaec8t (2) (sources)
+[NX Daemon Server] - 2024-11-05T16:21:45.796Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-05T16:21:45.797Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-05T16:21:45.797Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-11-05T16:21:45.797Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-05T16:21:46.126Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-05T16:21:46.127Z - Time taken for 'total for creating and serializing project graph' 329.79437499999995ms
+[NX Daemon Server] - 2024-11-05T16:21:46.127Z - [WATCHER]: Stopping the watcher for /Users/renusureshganvir/Downloads/sb1-gaec8t (2) (outputs)
+[NX Daemon Server] - 2024-11-05T16:21:46.127Z - Server stopped because: "this process is no longer the current daemon (native)"
+
+
+
+More information: /Users/renusureshganvir/Downloads/sb1-gaec8t (2)/.nx/cache/d/daemon.log

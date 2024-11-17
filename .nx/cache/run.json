@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build web",
+    "startTime": "2024-11-17T10:04:32.621Z",
+    "endTime": "2024-11-17T10:04:45.513Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "web:build:production",
+      "target": "build",
+      "projectName": "web",
+      "hash": "14383665190156111661",
+      "startTime": "2024-11-17T10:04:32.629Z",
+      "endTime": "2024-11-17T10:04:45.512Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
