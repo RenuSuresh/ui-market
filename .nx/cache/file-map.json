@@ -51,6 +51,42 @@
   },
   "fileMap": {
     "projectFileMap": {
+      "shared-ui": [
+        {
+          "file": "packages/shared/ui/package.json",
+          "hash": "3448106232273768795",
+          "deps": [
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "packages/shared/ui/project.json",
+          "hash": "17937034067150600257"
+        },
+        {
+          "file": "packages/shared/ui/src/index.ts",
+          "hash": "360940578646152556"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/button.tsx",
+          "hash": "17342150205216252481"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/utils.ts",
+          "hash": "1729146465301094011"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.json",
+          "hash": "615536708391496382"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.lib.json",
+          "hash": "9853212286358126775"
+        }
+      ],
       "web": [
         {
           "file": "apps/web/.next/app-build-manifest.json",
@@ -631,42 +667,6 @@
         {
           "file": "apps/web/tsconfig.json",
           "hash": "7386277635479651618"
-        }
-      ],
-      "shared-ui": [
-        {
-          "file": "packages/shared/ui/package.json",
-          "hash": "3448106232273768795",
-          "deps": [
-            "npm:@radix-ui/react-slot",
-            "npm:class-variance-authority",
-            "npm:clsx",
-            "npm:tailwind-merge"
-          ]
-        },
-        {
-          "file": "packages/shared/ui/project.json",
-          "hash": "17937034067150600257"
-        },
-        {
-          "file": "packages/shared/ui/src/index.ts",
-          "hash": "360940578646152556"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/button.tsx",
-          "hash": "17342150205216252481"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/utils.ts",
-          "hash": "1729146465301094011"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.json",
-          "hash": "615536708391496382"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.lib.json",
-          "hash": "9853212286358126775"
         }
       ]
     },
