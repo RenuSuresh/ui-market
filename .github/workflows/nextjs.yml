@@ -31,8 +31,5 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Export static site
-        run: npm run export
-
       - name: Deploy to GitHub Pages
         run: npm run deploy
