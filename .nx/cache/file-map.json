@@ -29,11 +29,13 @@
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
     "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.2.0",
     "nx": "18.0.4",
     "postcss": "^8.4.33",
     "prisma": "^5.10.2",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "serve": "^14.0.1"
   },
   "pathMappings": {
     "@ui-marketplace/shared/types": [
@@ -51,42 +53,6 @@
   },
   "fileMap": {
     "projectFileMap": {
-      "shared-ui": [
-        {
-          "file": "packages/shared/ui/package.json",
-          "hash": "3448106232273768795",
-          "deps": [
-            "npm:@radix-ui/react-slot",
-            "npm:class-variance-authority",
-            "npm:clsx",
-            "npm:tailwind-merge"
-          ]
-        },
-        {
-          "file": "packages/shared/ui/project.json",
-          "hash": "17937034067150600257"
-        },
-        {
-          "file": "packages/shared/ui/src/index.ts",
-          "hash": "360940578646152556"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/button.tsx",
-          "hash": "17342150205216252481"
-        },
-        {
-          "file": "packages/shared/ui/src/lib/utils.ts",
-          "hash": "1729146465301094011"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.json",
-          "hash": "13003937864123527220"
-        },
-        {
-          "file": "packages/shared/ui/tsconfig.lib.json",
-          "hash": "9853212286358126775"
-        }
-      ],
       "web": [
         {
           "file": "apps/web/.dockerignore",
@@ -160,6 +126,42 @@
           "file": "apps/web/tsconfig.json",
           "hash": "3788884391123887826"
         }
+      ],
+      "shared-ui": [
+        {
+          "file": "packages/shared/ui/package.json",
+          "hash": "3448106232273768795",
+          "deps": [
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "packages/shared/ui/project.json",
+          "hash": "17937034067150600257"
+        },
+        {
+          "file": "packages/shared/ui/src/index.ts",
+          "hash": "360940578646152556"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/button.tsx",
+          "hash": "17342150205216252481"
+        },
+        {
+          "file": "packages/shared/ui/src/lib/utils.ts",
+          "hash": "1729146465301094011"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.json",
+          "hash": "13003937864123527220"
+        },
+        {
+          "file": "packages/shared/ui/tsconfig.lib.json",
+          "hash": "9853212286358126775"
+        }
       ]
     },
     "nonProjectFiles": [
@@ -177,7 +179,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "5611818367983073716"
+        "hash": "16556382199298243755"
       },
       {
         "file": "app/globals.css",
@@ -445,11 +447,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "7077326332715738472"
+        "hash": "17215922615417839068"
       },
       {
         "file": "package.json",
-        "hash": "8687661959208827967"
+        "hash": "2985380756048936611"
       },
       {
         "file": "packages/shared/types/src/lib/product.ts",

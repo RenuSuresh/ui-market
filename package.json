@@ -1,10 +1,14 @@
 {
+  "homepage": "https://RenuSuresh.github.io/ui-market",
   "name": "ui-marketplace",
   "private": true,
   "scripts": {
     "dev": "nx serve web",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "npx gh-pages -d out",
     "build": "nx build web",
-    "start:web": "nx serve web",
+    "export": "next export",
+    "start:web": "npx serve -s out",
     "test": "nx test",
     "lint": "nx lint"
   },
@@ -38,11 +42,13 @@
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
     "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.2.0",
     "nx": "18.0.4",
     "postcss": "^8.4.33",
     "prisma": "^5.10.2",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "serve": "^14.0.1"
   },
   "workspaces": [
     "apps/*",
